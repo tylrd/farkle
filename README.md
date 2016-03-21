@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/tylrd/farkle/badges/gpa.svg)](https://codeclimate.com/github/tylrd/farkle)
 [![Dependency Status](https://gemnasium.com/tylrd/farkle.svg)](https://gemnasium.com/tylrd/farkle)
 
-
 # Table of Contents
 
 - [Installation](#installation)
@@ -14,6 +13,10 @@
 - [Development](#development)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Introduction
+
+TODO: write introduction
 
 ## Installation
 
@@ -53,6 +56,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
 
 
 
