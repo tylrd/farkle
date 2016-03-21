@@ -4,6 +4,8 @@
 [![Test Coverage](https://codeclimate.com/github/tylrd/farkle/badges/coverage.svg)](https://codeclimate.com/github/tylrd/farkle/coverage)
 [![Code Climate](https://codeclimate.com/github/tylrd/farkle/badges/gpa.svg)](https://codeclimate.com/github/tylrd/farkle)
 [![Dependency Status](https://gemnasium.com/tylrd/farkle.svg)](https://gemnasium.com/tylrd/farkle)
+[![Inline docs](http://inch-ci.org/github/tylrd/farkle.svg?branch=master)](http://inch-ci.org/github/tylrd/farkle)
+
 
 # Table of Contents
 
