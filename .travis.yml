@@ -1,4 +1,5 @@
 language: ruby
+before_install: gem install bundler -v 1.11.2
 bundler: cache
 bundler_args: --without development
 rvm:
@@ -9,3 +10,8 @@ script: bundle exec rake spec
 branches:
   only:
     - master
+addons:
+  code_climate:
+    repo_token:
+      secure: "gvF/efgPSe/4nwVaA4LJ7wuBq477jlY32LWLAasy8utz32QIf/TRDO2Om5vgnQfvqf+A9dO0pCVrRyRQGaNv1A0ssEYWla0KSoKPIy8aztdPMrmDY2OFGDZMc7Z5U35C2QGvqTBiatu9LFRj+QUMVw2HzWvPPWAZJBnCFWn+ZVk7L+gdIbZs7WYK9AwtceLrc2RQoVyDqiZSLlnFVlBq5nghCKlD8oAjvTBzvn5pr7ypG8bMBazlXGxxcIY+ovaepw6hl7zdxPfQkNOnUOE5yaCqu30jTEOlQeWjDCzqY29JYNEXdMlChdRc+dS38ZelJl8nD4Bf9PC2Vc6B55nbtsgsQmqNjWxhIgIEigD8uIDxNsI6MH3STIWRrxEbnWqgZDBcjzmDF9xj7Lu/keLXws2uIWttsaUzHGwzE9wvNOPG8+p44lwVzJ0VIWnH/vLMwjYeHoeZPddrMmvmHZq45yae+OshxmKp90CbtCsPL07jiM/Dv+dSFJVSVlYw6Q3bIV86jTnF/5DNhYZXns47l73/SLNneuR7iDRXPy3CvZ3rkS9Uh+RbqcgRNl2Besf3ZGUvVzaXRTHz9X1Ce2lwSPq1faoB3Es/n2MBQidBXjnVcy8kXiAM8dlIaT7kD76uTCgmP8vP85OpZKtuLSQZ+uUVouuR1Sc8SUKMlJYDOls="
+
