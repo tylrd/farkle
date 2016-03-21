@@ -1,13 +1,18 @@
 # Farkle
-<dl>
-  <dt>Homepage</dt><dd><a href="#">Homepage Link</a></dd>
-  <dt>Author</dt><dd><a href="author_link">Author Name</a></dd>
-  <dt>Team</dt>
-    <dd><a href="author_link">Author Name</a></dd>
-    <dd><a href="author_link">Author Name</a></dd>
-    <dd><a href="author_link">Author Name</a></dd>
-  <dt>Documentation</dt><dd><a href="#">Ruby Gems Docs</a></dd>
-</dl>
+
+[![Build Status](https://travis-ci.org/tylrd/farkle.svg?branch=master)](https://travis-ci.org/tylrd/farkle)
+[![Test Coverage](https://codeclimate.com/github/tylrd/farkle/badges/coverage.svg)](https://codeclimate.com/github/tylrd/farkle/coverage)
+[![Code Climate](https://codeclimate.com/github/tylrd/farkle/badges/gpa.svg)](https://codeclimate.com/github/tylrd/farkle)
+[![Dependency Status](https://gemnasium.com/tylrd/farkle.svg)](https://gemnasium.com/tylrd/farkle)
+
+# Table of Contents
+
+[Installation](##installation)
+[Usage](##usage)
+[API Reference](##apireference)
+[Development](##development)
+[Contributing](##contributing)
+[License](##License)
 
 ## Installation
 
@@ -43,6 +48,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
 
 
 
