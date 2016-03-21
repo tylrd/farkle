@@ -8,6 +8,8 @@ gem "yard"
 group :development do 
   gem "guard"
   gem "guard-rspec"
+  gem "rubocop"
+  gem "guard-rubocop"
 end
 
 group :test do 

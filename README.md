@@ -1,5 +1,25 @@
 # Farkle
 
+[![Build Status](https://travis-ci.org/tylrd/farkle.svg?branch=master)](https://travis-ci.org/tylrd/farkle)
+[![Test Coverage](https://codeclimate.com/github/tylrd/farkle/badges/coverage.svg)](https://codeclimate.com/github/tylrd/farkle/coverage)
+[![Code Climate](https://codeclimate.com/github/tylrd/farkle/badges/gpa.svg)](https://codeclimate.com/github/tylrd/farkle)
+[![Dependency Status](https://gemnasium.com/tylrd/farkle.svg)](https://gemnasium.com/tylrd/farkle)
+[![Inline docs](http://inch-ci.org/github/tylrd/farkle.svg?branch=master)](http://inch-ci.org/github/tylrd/farkle)
+
+
+# Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Reference](#apireference)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+TODO: write introduction
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,6 +40,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## API Reference
+
+TODO: Write API Reference here
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -34,4 +58,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+
+
+
 
