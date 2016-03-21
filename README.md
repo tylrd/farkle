@@ -1,4 +1,13 @@
 # Farkle
+<dl>
+  <dt>Homepage</dt><dd><a href="#">Homepage Link</a></dd>
+  <dt>Author</dt><dd><a href="author_link">Author Name</a></dd>
+  <dt>Team</dt>
+    <dd><a href="author_link">Author Name</a></dd>
+    <dd><a href="author_link">Author Name</a></dd>
+    <dd><a href="author_link">Author Name</a></dd>
+  <dt>Documentation</dt><dd><a href="#">Ruby Gems Docs</a></dd>
+</dl>
 
 ## Installation
 
@@ -34,4 +43,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
 
