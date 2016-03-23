@@ -10,7 +10,9 @@ module Farkle
     # @option options [Integer] :num number of dice
     # @option options [Integer] :sides number of sides on the die
     def initialize(options = {})
-      @dice = Array.new(options[:num] || 6) { Die.new(options[:sides]) }
+      num = options[:num] || 6
+      sides = options[:sides]
+      @dice = Array.new(num) { Die.new(sides) }
     end
 
     # Rolls each dice.
