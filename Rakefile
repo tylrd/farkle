@@ -1,11 +1,12 @@
 require "bundler/gem_tasks"
+
 require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec)
 
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new(:rubocop) do |task|
-  task.options = ['--lint']
-  task.patterns = ['lib/**/*.rb']
+  task.patterns = ["lib/**/*.rb"]
+  task.formatters = %w(simple progress offenses)
 end
 
 task :default => [:spec, :rubocop]

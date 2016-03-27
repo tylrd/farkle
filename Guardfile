@@ -5,7 +5,7 @@ group :development do
     watch('spec/spec_helper.rb')  { "spec" }
   end
 
-  guard :rubocop, cli: ['--lint'] do 
+  guard :rubocop, cli: ["--format", "offenses", "--format", "progress"] do 
     watch(%r{^lib/(.+).rb$})
   end
 end
