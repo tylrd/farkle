@@ -1,11 +1,13 @@
 module Farkle
   class Die
 
+    include Comparable
+
     attr_reader :upface, :sides
 
-    # Initializes a new instance of <code>Farkle::Die</code object
+    # Initializes a new instance of <code>Farkle::Die</code> object
     #
-    # @param [Integer] the number of sides for the die object. Defaults to 6.
+    # @param sides [Integer] the number of sides for the die object. Defaults to 6.
     # @example
     #   Farkle::Die.new(15)
     #
@@ -27,6 +29,10 @@ module Farkle
     # @return [Boolean] true if the die has been throw 
     def rolled?
       !upface.nil?
+    end
+
+    def <=>(other)
+      upface <=> other.upface
     end
 
   end

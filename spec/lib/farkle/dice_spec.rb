@@ -27,7 +27,7 @@ describe Farkle::Dice do
 
   context 'initialize with two arguments' do 
 
-    let (:dice) { Farkle::Dice.new(num: 20, sides: 14) }
+    let(:dice) { Farkle::Dice.new(num: 20, sides: 14) }
 
     it 'should have n dice' do 
       expect(dice.size).to be 20

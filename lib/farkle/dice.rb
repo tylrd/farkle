@@ -10,21 +10,23 @@ module Farkle
     # @option options [Integer] :num number of dice
     # @option options [Integer] :sides number of sides on the die
     def initialize(options = {})
-      @dice = Array.new(options[:num] || 6) { Die.new(options[:sides]) }
+      num = options[:num] || 6
+      sides = options[:sides]
+      @dice = Array.new(num) { Die.new(sides) }
     end
 
     # Rolls each dice.
     #
     # @return [Array<Farkle::Die>] The array of die that have been rolled.
     def throw
-      @dice.each { |die| die.roll }
+      @dice.each(&:roll)
     end
 
     # Describes if all the dice have been thrown
     #
     # @return [Boolean] true if all dice have been thrown
     def thrown?
-      @dice.all? { |die| die.rolled? }
+      @dice.all?(&:rolled?)
     end
 
   end
